@@ -1,0 +1,95 @@
+# types :
+int 
+float
+str
+bool
+list
+tuple
+dict
+
+# variables :
+x = 1
+y = 2
+z = 3
+# lists :
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = [7, 8, 9]
+
+# tuples :
+d = (1, 2)
+e = (4, 5)
+f = (7, 8)
+
+# dictionaries :
+g = {
+    'a': 1,
+    'b': 2,
+    'c': 3
+}
+
+h = {
+    'd': 4,
+    'e': 5,
+    'f': 6
+}
+
+i = {
+    'g': 7,
+    'h': 8,
+    'i': 9
+}
+
+# functions :
+def add(x, y):
+    a = x + y
+    return a
+
+def sub(x, y):
+    a = x - y
+    return a
+
+def mul(x, y):
+    a = x * y
+    return a
+
+def div(x, y):
+    a = x / y
+    return a
+
+def floordiv(x, y):
+    a = x // y
+    return a
+
+def mod(x, y):
+    a = x % y
+    return a
+
+def power(x, y):
+    a = x ** y
+    return a
+
+# built-in functions :
+print()
+input()
+type()
+len()
+
+# operators :
+
++ - * / // % **
+
+= += -= *= /= //= %=
+
+== != > < >= <=
+
+and or not
+
+
+# keywords :
+if 
+elif
+else
+for
+in range() 
+while
