@@ -93,3 +93,7 @@ else
 for
 in range() 
 while
+from
+import
+break
+continue
