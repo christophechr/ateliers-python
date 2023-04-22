@@ -1,11 +1,24 @@
 # create function using built_in functions
 
-def printingSomething(var):
-    print(var)
-    return 0
+# nombre :
+# int = nombre entier
+# float = nombre à virgule
 
+def addition(nombre1, nombre2):
+    résultat = nombre1 + nombre2
+    return résultat
+    
 def main():
-    # Call the printingSomething function
-    printingSomething("Hello World")
-    # Always return a value
-    return 0
+    résultatAddition = addition(1, 2)
+    
+    print(résultatAddition)
+
+    print("Test")
+
+    inputData = input("Donnez un nombre : ")
+
+    print(inputData)
+
+
+if __name__ == '__main__':
+    main()
