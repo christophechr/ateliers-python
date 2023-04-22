@@ -1,3 +1,4 @@
+# generate a for loop to assign values to a list and return it
 def forLoop():
     # create your for loop here
 
@@ -8,13 +9,13 @@ def forLoop():
     # Never forget to return in python
     return
 
-
-def loop():
+# generate a loop to display the values of a list
+def loop(list):
     # create your first loop here
     return 
 
 def main():
-    # Call the loop function
+    # Assign a variable to the call of the loop function
     loop()
     # Call the forLoop function
     forLoop()
